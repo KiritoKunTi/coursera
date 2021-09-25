@@ -221,12 +221,14 @@
 
 .courses {
 	display: flex;
+	justify-content: space-between;
+
 }
 
-
-.rice{
+.course-back {
 	border-radius: 3px;
     height: 395px;
+    
     overflow: hidden;
 
     transition: opacity .2s linear;
@@ -238,9 +240,8 @@
     	box-shadow: rgb(31 31 31 / 24%) 0px 1px 6px, 
     	rgb(31 31 31 / 24%) 0px 1px 4px;
 	}	
-
-
 }
+
 
 .image-back {
 	width: 268px;
@@ -266,13 +267,12 @@
     width: 72px;
     height: 72px;
     padding: 8px;
-    top: 264px;
-    left: 22px;
+    
 
     
 }
 
-.rice__text {
+.course__text {
 	line-height: 36px;
 	position: relative;
     margin-top: 48px;
@@ -280,7 +280,7 @@
     padding: 0.75rem 1.5rem;
 }
 
-.rice__title {
+.course__title {
 	opacity: 85%;
 
 	font-size: 20px;
@@ -289,26 +289,105 @@
     
 }
 
-.rice__subtitle {
+.course__subtitle {
 	font-size: 14px;
 	color: #666666;
 }
 
+
+
 .text__course {
-
 	position: relative;
-	top: 70px;
-	left: 25px;
-
 	color: black;
 	opacity: 90%;
 	font-size: 0.75rem;
     line-height: 1.125rem;
     text-transform: uppercase;
     font-weight: 600;
-    
 
 }
 
+/* RICE */
 
+.rice{
 
+}
+
+.rice-text__course {
+	top: 70px;
+	left: 25px;
+}
+
+.rice__image-font {
+	top: 264px;
+    left: 28px;
+}
+
+/* SYDNEY */
+
+.sydney {
+	
+    
+}
+
+.sydney-text__course {
+	top: 50px;
+	left: 25px;
+}
+
+.sydney__image-font {
+	top: 264px;
+    left: 338px;
+}
+
+.syndey__gratis {
+
+	font-size: 12px;
+    float: right;
+    font-weight: bold;
+    font-family: Arial;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 224, 87);
+    border-radius: 10px;
+    padding: 4px 17px;
+
+    position: absolute;
+    top: 312px;
+    left: 495px;
+    z-index: 10;
+    
+}
+
+/* LEARN_QUEST */
+
+.learn_quest{
+
+}
+
+.learn_quest-text__course {
+	top: 70px;
+	left: 25px;
+}
+
+.learn_quest__image-font {
+	top: 264px;
+    left: 648px;
+}
+
+/* SAS */
+
+.sas {
+
+}
+
+.sas-text__course {
+	top: 90px;
+	left: 25px;
+}
+
+.sas__image-font{
+	top: 264px;
+    left: 958px;
+}
