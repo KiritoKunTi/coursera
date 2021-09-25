@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -427,4 +428,91 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+/* Persons header */
+.container-persons {
+  margin: 0px auto 50px;
+  max-width: 800px;
+  text-align: center;
+  width: 100%;
+}
+
+.container-persons__title {
+  font-weight: 500;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  color: #1f1f1f;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0px 20px 14px;
+}
+
+.container-persons__subtitle {
+  color: #1f1f1f;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+/* Persons */
+.persons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.person {
+  color: #1f1f1f;
+  display: block;
+  margin: 0 auto;
+  max-width: 270px;
+  text-align: center;
+}
+
+.person__image {
+  width: 202px;
+  height: 202px;
+}
+
+.person__name {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+  color: #382d8b;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.person__work {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.person__city {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+.line_blue {
+  background-color: #2a73cc;
+  display: inline-block;
+  height: 2px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 69px;
+}
+
+.person__comment {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1f1f1f;
 }
